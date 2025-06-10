@@ -1,4 +1,8 @@
 # Linux
+## Suspend/Resume
+ - /sys/power/pm_wakeup_irq is a way to know when the device wakes up.
+ - - It would be possible to integrate several resources, likethe  power button/wake alarm be shown as PMIC
+ - 
 ## Wakealarm
  - echo 0 > /sys/class/rtc/rtc0/wakealarm
  - echo $timestamp > /sys/class/rtc/rtc0/wakealarm
