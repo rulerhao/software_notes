@@ -25,3 +25,7 @@
 ## BLE
 ### Connect
  - Must wait for about 500~1000ms after scanning to prevent code 133 when connect.
+### HCI Command queue
+ - Host Controller Interface
+ - Communication between BLE host and controller with command LE_Set_Scan_Enable, LE_Create_Connection, GATT_Write_Request, etc...
+ - UART, SPI, USB, etc, could be possible to be the serial ports.
