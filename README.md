@@ -20,3 +20,8 @@
 ### Transfer time:
  - [Seek time] - Move the read/write head to the track.
  - [Rotational latency] - Move the read/write head to the desired sector.
+
+# Android
+## BLE
+### Connect
+ - Must wait for about 500~1000ms after scanning to prevent code 133 when connect.
